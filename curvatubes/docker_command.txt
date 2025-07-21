@@ -1,0 +1,1 @@
+bash run_docker.sh --out_dir ./out_juandiego --config ./scripts/config_juandiego.yaml

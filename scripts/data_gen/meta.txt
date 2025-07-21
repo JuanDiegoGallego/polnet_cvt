@@ -1,0 +1,1512 @@
+Duration = 19.538606643676758 seconds
+E = 2.4769
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.33 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 19.666431665420532 seconds
+E = 40.7401
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.33 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 19.96450161933899 seconds
+E = 39.5648
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.33 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 303.08801794052124 seconds
+E = 327.6593
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 305.1999864578247 seconds
+E = 332.2408
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 20.596802234649658 seconds
+E = 47.4414
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.33 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 20.618951082229614 seconds
+E = 51.1700
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.33 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2100.0840561389923 seconds
+E = 3713.6785
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 306.975070476532 seconds
+E = 432.6746
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 303.3267180919647 seconds
+E = 283.6212
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 304.27017283439636 seconds
+E = 288.1934
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.063064813614 seconds
+E = 2477.5073
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2177181243896 seconds
+E = 2271.1824
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3583109378815 seconds
+E = 2176.6584
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3416197299957 seconds
+E = 1923.0089
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2552847862244 seconds
+E = 1691.4611
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.313
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2914702892303 seconds
+E = 3182.6345
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.055, 1.202, 8.061, 8.898, 51.219] m -0.424
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.5582723617554 seconds
+E = 1950.6381
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.787, 0.74, -0.898, -11.9, 26.523] m -0.302
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8982815742493 seconds
+E = 4183.9097
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.417
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.915321111679 seconds
+E = 4244.6870
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.910984516144 seconds
+E = 694.6405
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.156, 1.138, 7.152, -1.538, -97.261] m -0.396
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2111.214442014694 seconds
+E = -2890.7395
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 3.051, 1.525, -12.375, 2.333, 198.262] m -0.444
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.9150898456573 seconds
+E = -3713.0859
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.871, 0.786, -21.218, 10.82, -178.797] m -0.536
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8852903842926 seconds
+E = 4775.8813
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.035, 1.336, 4.591, -6.248, 172.724] m -0.368
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 238.87786221504211 seconds
+E = 356.6346
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 232.95032238960266 seconds
+E = 273.5341
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 232.1451120376587 seconds
+E = 385.3004
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 235.43491435050964 seconds
+E = 300.4742
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 232.20752930641174 seconds
+E = 300.4742
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2139.7088661193848 seconds
+E = 4170.0093
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2117.8188297748566 seconds
+E = 1680.3800
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2674646377563 seconds
+E = 1669.1909
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 304.94582986831665 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 305.87250089645386 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 302.9893069267273 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 302.89477801322937 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 305.3505165576935 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 302.86797404289246 seconds
+E = 404.6197
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.67 LX = 0.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2097.0025310516357 seconds
+E = 4605.6875
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.035, 1.336, 4.591, -6.248, 172.724] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.308871269226 seconds
+E = 4132.1201
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.356372117996 seconds
+E = 2496.9846
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.298352241516 seconds
+E = 1295.5011
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.871, 0.624, 13.67, 32.03, 23.821] m -0.555
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3500561714172 seconds
+E = 1118.5135
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.677, 1.604, 4.865, -6.707, -190.175] m -0.38
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3513901233673 seconds
+E = -3513.1992
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.133, 0.891, -24.764, -7.625, -170.543] m -0.518
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3593440055847 seconds
+E = 2939.0049
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.555, 1.05, 2.016, 17.765, 83.827] m -0.516
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2590053081512 seconds
+E = 695.2219
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.615, 1.091, -1.337, -4.858, 22.54] m -0.586
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.29824757576 seconds
+E = 1714.8882
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.332, 1.004, 9.181, 8.117, 86.732] m -0.463
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.282054901123 seconds
+E = 2146.5100
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.415, 1.295, 10.816, -1.741, -68.915] m -0.544
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.290784597397 seconds
+E = 2872.8408
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.048, 1.298, 0.792, -8.265, 46.414] m -0.493
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.309550046921 seconds
+E = 3889.1489
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.68, 0.829, 5.299, -0.711, 179.699] m -0.384
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2439301013947 seconds
+E = 4045.2805
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.36, 1.072, 5.688, 18.12, -36.881] m -0.516
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.7210376262665 seconds
+E = 5682.4980
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.372, 1.661, 0.836, -11.377, -90.183] m -0.499
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.8128468990326 seconds
+E = -8937.9492
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.604, 1.177, -19.018, 6.306, 19.722] m -0.358
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.8251235485077 seconds
+E = 6168.7920
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.121, 1.701, 4.407, -13.114, 166.952] m -0.394
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.359698534012 seconds
+E = 819.6957
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.592, 1.298, 11.118, 2.564, -175.435] m -0.375
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.72491645813 seconds
+E = -373.9393
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.875, 0.608, 12.436, -14.232, -39.03] m -0.416
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.683734178543 seconds
+E = 2496.9846
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.711079597473 seconds
+E = 1933.3091
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.735059261322 seconds
+E = 1710.5090
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.7414858341217 seconds
+E = 1727.9827
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.313
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.7548620700836 seconds
+E = 3359.6526
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.055, 1.202, 8.061, 8.898, 51.219] m -0.424
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.67001080513 seconds
+E = 2054.4590
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.787, 0.74, -0.898, -11.9, 26.523] m -0.302
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.717276573181 seconds
+E = 4269.7451
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.417
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.6896908283234 seconds
+E = 4170.0093
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.6913294792175 seconds
+E = 632.2587
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.156, 1.138, 7.152, -1.538, -97.261] m -0.396
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.7032458782196 seconds
+E = 1042.9872
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.627, 0.782, 0.633, 13.331, -162.601] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.7623329162598 seconds
+E = 1917.9814
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.079, 0.428, 13.34, 9.656, 40.683] m -0.417
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.725688457489 seconds
+E = 4365.6465
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.906, 0.916, 6.689, -4.692, 217.096] m -0.488
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.818046092987 seconds
+E = 2744.1821
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.272, 1.372, 5.241, 5.823, 26.867] m -0.563
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.92533326149 seconds
+E = -773.8970
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.073, 0.831, -7.646, 2.513, -162.188] m -0.516
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7906816005707 seconds
+E = 3066.2976
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.839, 0.901, 11.614, -0.022, 96.037] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8241579532623 seconds
+E = -855.9355
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.41, 0.646, -4.312, -8.287, -145.675] m -0.308
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.634778022766 seconds
+E = 522.0810
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.632, 1.04, -6.86, -22.452, -145.402] m -0.303
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7591586112976 seconds
+E = -8205.6152
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.832, 0.804, -11.413, 8.046, 144.226] m -0.419
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7051186561584 seconds
+E = 2630.2830
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.295, 0.809, 15.186, 6.942, 34.505] m -0.535
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3386690616608 seconds
+E = 3594.6621
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.217, 1.016, 11.808, -3.931, 26.198] m -0.462
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.0660104751587 seconds
+E = -234.2656
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.21, 0.248, 6.615, 8.524, -27.62] m -0.334
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.0728130340576 seconds
+E = 4846.1035
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.666, 1.328, -1.101, -12.213, -31.463] m -0.384
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.0416383743286 seconds
+E = -867.5410
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.528, 0.484, -3.543, -13.347, -163.539] m -0.372
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.057338476181 seconds
+E = 1798.6907
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.4, 0.517, 8.492, -4.4, -43.582] m -0.506
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.0406064987183 seconds
+E = 2302.8582
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.574, 1.028, 3.526, 4.104, 44.389] m -0.337
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.684244632721 seconds
+E = 707.3663
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.955, 0.919, 3.566, -11.497, -92.01] m -0.319
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.699812889099 seconds
+E = 813.2917
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.956, 0.919, 3.566, -11.497, -92.01] m -0.319
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.775705575943 seconds
+E = 2235.7451
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.831, 0.738, 4.251, -8.618, 13.342] m -0.528
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7689657211304 seconds
+E = -8.2756
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.519, 0.523, 10.635, 4.595, -92.57] m -0.34
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2130.716965675354 seconds
+E = 6851.2153
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, -0.198, 1.574, -1.171, 27.243, -21.796] m -0.556
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7908437252045 seconds
+E = 2596.7817
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.007, 1.175, 2.589, 5.006, 64.392] m -0.556
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7868077754974 seconds
+E = 1619.8092
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.302, 0.789, 9.512, -3.618, -77.536] m -0.328
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.881399154663 seconds
+E = 3436.9812
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.971, 1.442, -1.361, -8.969, 155.936] m -0.597
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8604061603546 seconds
+E = -1832.0300
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1.569, -13.245, 4.828, -238.536] m -0.308
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.898726940155 seconds
+E = 1853.0735
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.842, 1.025, -6.894, 1.757, 146.166] m -0.363
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8930752277374 seconds
+E = 22.8415
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.105, 0.663, 3.22, 9.686, 50.076] m -0.489
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.9394874572754 seconds
+E = 2254.7544
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.322, 1.626, -3.044, -6.057, -24.167] m -0.597
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8743436336517 seconds
+E = 4674.8184
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.57, 1.313, 0.31, -6.459, 122.981] m -0.354
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.91446185112 seconds
+E = 270.8944
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.771, 0.976, 2.79, -10.189, -120.376] m -0.307
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.873252391815 seconds
+E = 3635.7339
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.766, 1.454, 8.7, 2.965, -29.691] m -0.508
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.917407274246 seconds
+E = -1608.4528
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.939, 1.297, 2.401, 13.732, 19.959] m -0.523
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 92.23613500595093 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 90.92296957969666 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 90.60073852539062 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 90.41808271408081 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 90.4459707736969 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 90.16482257843018 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 98.2811872959137 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 91.32471418380737 seconds
+E = 1054.7269
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 0.53 LX = 0.53 LY = 0.53 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 737.5229625701904 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 762.0230886936188 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 753.020667552948 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 740.3258168697357 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 737.026688337326 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.4765362739563 seconds
+E = 2496.9846
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1420159339905 seconds
+E = 1727.9827
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.313
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1005387306213 seconds
+E = 3359.6526
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.055, 1.202, 8.061, 8.898, 51.219] m -0.424
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.140782594681 seconds
+E = 2054.4590
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.787, 0.74, -0.898, -11.9, 26.523] m -0.302
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.175527572632 seconds
+E = 4846.1035
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.666, 1.328, -1.101, -12.213, -31.463] m -0.384
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1593585014343 seconds
+E = -867.5410
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.528, 0.484, -3.543, -13.347, -163.539] m -0.372
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.157816886902 seconds
+E = 2302.8582
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.574, 1.028, 3.526, 4.104, 44.389] m -0.337
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2576937675476 seconds
+E = 707.3663
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.955, 0.919, 3.566, -11.497, -92.01] m -0.319
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1489639282227 seconds
+E = -8.2756
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.519, 0.523, 10.635, 4.595, -92.57] m -0.34
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3811740875244 seconds
+E = 1933.3091
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2706027030945 seconds
+E = 1710.5090
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.2460339069366 seconds
+E = 4269.7451
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.417
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1415235996246 seconds
+E = 4170.0093
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2135.9329817295074 seconds
+E = 632.2587
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.156, 1.138, 7.152, -1.538, -97.261] m -0.396
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.368608236313 seconds
+E = 5682.4980
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.372, 1.661, 0.836, -11.377, -90.183] m -0.499
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2101.373170852661 seconds
+E = -2984.7327
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 3.051, 1.525, -12.375, 2.333, 198.262] m -0.444
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.337862253189 seconds
+E = -3608.0337
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.871, 0.786, -21.218, 10.82, -178.797] m -0.536
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.3090431690216 seconds
+E = 4681.5957
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.035, 1.336, 4.591, -6.248, 172.724] m -0.368
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.301910161972 seconds
+E = 1680.3800
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.149635076523 seconds
+E = 1669.1909
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.38010931015 seconds
+E = 4605.6875
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.035, 1.336, 4.591, -6.248, 172.724] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2099.3803601264954 seconds
+E = 4132.1201
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7804391384125 seconds
+E = 2496.9846
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.8085508346558 seconds
+E = 1295.5011
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.871, 0.624, 13.67, 32.03, 23.821] m -0.555
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.0140192508698 seconds
+E = 1118.5135
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.677, 1.604, 4.865, -6.707, -190.175] m -0.38
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2101.4583973884583 seconds
+E = -3513.1992
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.133, 0.891, -24.764, -7.625, -170.543] m -0.518
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.373105764389 seconds
+E = 2939.0049
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.555, 1.05, 2.016, 17.765, 83.827] m -0.516
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3790245056152 seconds
+E = 695.2219
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.615, 1.091, -1.337, -4.858, 22.54] m -0.586
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3768470287323 seconds
+E = 1714.8882
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.332, 1.004, 9.181, 8.117, 86.732] m -0.463
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.386819601059 seconds
+E = 2146.5100
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.415, 1.295, 10.816, -1.741, -68.915] m -0.544
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.407811164856 seconds
+E = 2872.8408
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.048, 1.298, 0.792, -8.265, 46.414] m -0.493
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.365552186966 seconds
+E = 3889.1489
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.68, 0.829, 5.299, -0.711, 179.699] m -0.384
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3913044929504 seconds
+E = 4045.2805
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.36, 1.072, 5.688, 18.12, -36.881] m -0.516
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3626942634583 seconds
+E = -8937.9492
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.604, 1.177, -19.018, 6.306, 19.722] m -0.358
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.349144220352 seconds
+E = 6168.7920
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.121, 1.701, 4.407, -13.114, 166.952] m -0.394
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3858757019043 seconds
+E = 819.6957
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.592, 1.298, 11.118, 2.564, -175.435] m -0.375
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.408451318741 seconds
+E = -373.9393
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.875, 0.608, 12.436, -14.232, -39.03] m -0.416
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.386883497238 seconds
+E = 2496.9846
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2138.827206134796 seconds
+E = 1933.3091
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2096.1795723438263 seconds
+E = 1933.3091
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.692720890045 seconds
+E = 1710.5090
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.6725935935974 seconds
+E = 1727.9827
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.629, 0.962, -7.9, -11.994, 15.806] m -0.313
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.5025680065155 seconds
+E = 3359.6526
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.055, 1.202, 8.061, 8.898, 51.219] m -0.424
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.510954141617 seconds
+E = 2054.4590
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.787, 0.74, -0.898, -11.9, 26.523] m -0.302
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.487817764282 seconds
+E = 4269.7451
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1.161, 0.778, 15.878, -2.935, 65.71] m -0.417
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.509758710861 seconds
+E = 4170.0093
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.669, 1.722, -0.762, 1.376, 33.479] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.5298190116882 seconds
+E = 632.2587
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2.156, 1.138, 7.152, -1.538, -97.261] m -0.396
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.411118745804 seconds
+E = 1042.9872
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 0.627, 0.782, 0.633, 13.331, -162.601] m -0.512
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 784.5636072158813 seconds
+E = 823.7710
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.00 LX = 1.00 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2239.342837333679 seconds
+E = 2340.0759
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2247.4614865779877 seconds
+E = 2187.2004
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2244.6986377239227 seconds
+E = 1952.8942
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.45
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2237.085184574127 seconds
+E = 5674.5728
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.678411960602 seconds
+E = 7800.3711
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 2000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.7421152591705 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.443554162979 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.4809272289276 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3368530273438 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.390030860901 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.388951778412 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.283807992935 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.4002306461334 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.3352613449097 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.5181589126587 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.355936050415 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.479147672653 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.369427204132 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.5356061458588 seconds
+E = 21631.5352
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 3000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2097.4629378318787 seconds
+E = 5674.5728
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 20.260380744934082 seconds
+E = 74.9320
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.17 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 21.426833868026733 seconds
+E = 74.9320
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 0.33 LX = 0.33 LY = 0.17 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 511.78956627845764 seconds
+E = 1356.8146
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 0.83 LX = 0.83 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 1087.4974002838135 seconds
+E = 2618.2129
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 2, 1, 0, 0, 1000] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.43 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 1682.684077501297 seconds
+E = 1867.5575
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 1678.3845012187958 seconds
+E = 1644.5978
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.4
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 1678.4042329788208 seconds
+E = 10860.9551
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 300] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 1678.425402879715 seconds
+E = 1867.5575
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [1, 1, 1, 0, 0, 0] m -0.3
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.67 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2103.798847436905 seconds
+E = 8081.1035
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [6, 3.403, 7, -500, 26, 10854] m -0.716
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
+Duration = 2095.9317960739136 seconds
+E = 8081.1035
+polykap_deg2 adam cons periodic
+eps 0.02 coeffs [6, 3.403, 7, -500, 26, 10854] m -0.716
+delta_x = 0.003 LZ = 1.67 LX = 1.67 LY = 0.83 xi = 1e-06
+{'maxeval': 6000, 'sigma_blur': 3, 'lr': 0.001, 'eps_adam': 0.01, 'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False, 'display_it_nb': 1000, 'fill_curve_nb': 50}
+
+
