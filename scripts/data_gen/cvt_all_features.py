@@ -85,15 +85,15 @@ PROTEINS_LIST = [
 ]
 
 MB_PROTEINS_LIST = [
-    # "in_10A/mb_6rd4_10A.pms",
-    # "in_10A/mb_5wek_10A.pms",
-    # "in_10A/mb_4pe5_10A.pms",
-    # "in_10A/mb_5ide_10A.pms",
-    # "in_10A/mb_5gjv_10A.pms",
-    # "in_10A/mb_5kxi_10A.pms",
-    # "in_10A/mb_5tj6_10A.pms",
-    # "in_10A/mb_5tqq_10A.pms",
-    # "in_10A/mb_5vai_10A.pms",
+    "in_10A/mb_6rd4_10A.pms",
+    "in_10A/mb_5wek_10A.pms",
+    "in_10A/mb_4pe5_10A.pms",
+    "in_10A/mb_5ide_10A.pms",
+    "in_10A/mb_5gjv_10A.pms",
+    "in_10A/mb_5kxi_10A.pms",
+    "in_10A/mb_5tj6_10A.pms",
+    "in_10A/mb_5tqq_10A.pms",
+    "in_10A/mb_5vai_10A.pms",
 ]
 
 cvt_allParams = [
