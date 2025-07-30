@@ -269,6 +269,76 @@ class TorGen(SurfGen):
         )[::-1]
 
 
+class CvtGen(SurfGen):
+    """
+    Class for model the random generation of Curvatubes parameters
+    """
+
+    def __init__(self, 
+                 cvt_params=None, 
+                 mass_rg=(-0.75, -0.15), 
+                 a11_rg=(-4, 4), 
+                 a02_rg=(1 / 15, 15), 
+                 b_rg=(-200, 200),
+                 c_rg=(-3000, 3000)
+                 ):
+        """
+        CvtGen constructor
+
+        Parameters
+        ----------
+
+        cvt_params : tuple, optional
+            Tuple of the eight parameters needed for de generation of
+            a Curvatubes surface: eps, a_20, a_11, a_02, a_10, a_01,
+            a_00, and m_0. For reference, see Curvatubes original paper:
+            https://link.springer.com/article/10.1007/s10851-021-01049-9
+        mass_rg : tuple, optional
+            If given, a range for the m_0 parameter. Else, the value from
+            cvt_params is used.
+        a11_rg : tuple, optional
+            If given, a range for the a_11 parameter. Else, the value 
+            from cvt_params is used.
+        """
+        assert hasattr(mass_rg, '__len__') and (len(mass_rg) == 2) and (mass_rg[0] <= mass_rg[1]) and (-1.0 <= mass_rg[0]) and (mass_rg[1] <= 1.0)
+        assert hasattr(a11_rg, '__len__') and (len(a11_rg) == 2) and (a11_rg[0] <= a11_rg[1])
+        assert hasattr(a02_rg, '__len__') and (len(a02_rg) == 2) and (a02_rg[0] <= a02_rg[1])
+        assert hasattr(b_rg, '__len__') and (len(b_rg) == 2) and (b_rg[0] <= b_rg[1])
+        assert hasattr(c_rg, '__len__') and (len(c_rg) == 2) and (c_rg[0] <= c_rg[1])
+        if cvt_params is not None:
+            assert hasattr(cvt_params,'__len__') and (len(cvt_params) == 8) and (-1.0 <= cvt_params[7]) and (cvt_params[7] <= 1.0)
+            self.__cvt_params = cvt_params
+        else:
+            self.__cvt_params = None
+        self.__mass_rg = mass_rg
+        self.__a11_rg = a11_rg
+        self.__a02_rg = a02_rg
+        self.__b_rg = b_rg
+        self.__c_rg = c_rg
+
+    def gen_parameters(self):
+        """
+        Generates randomly the parameters needed for the generation of a curvatube following bounded uniform distributions.
+        If a set of 8 parameters was specified, the parameters are not random but the ones given.
+
+        :return: the eight parameters needed
+        """
+
+        if self.__cvt_params is not None:
+            return self.__cvt_params
+
+        a20 = 1
+        eps = 0.02
+        m = random.uniform(self.__mass_rg[0], self.__mass_rg[1])
+        a11 = random.uniform(self.__a11_rg[0], self.__a11_rg[1])
+        a02 = random.uniform(self.__a02_rg[0], self.__a02_rg[1])
+        b10 = random.uniform(self.__b_rg[0], self.__b_rg[1])
+        b01 = random.uniform(self.__b_rg[0], self.__b_rg[1])
+        c = random.uniform(self.__c_rg[0], self.__c_rg[1])
+
+        return eps, a20, a11, a02, b10, b01, c, m
+
+
 class SGen(ABC):
     """
     Abstract class for a (random) sequence
@@ -374,65 +444,3 @@ class OccGen:
         :return: a float with the generated occupancy
         """
         return random.uniform(self.__occ_rg[0], self.__occ_rg[1])
-
-
-class CvtGen(SurfGen):
-    """
-    Class for model the random generation of Curvatubes parameters
-    """
-
-    def __init__(self, 
-                 cvt_params=(0.02,1,1,1,0,0,0,-0.4), 
-                 mass_rg=(-0.75, -0.15), 
-                 a11_rg=(-4, 4), 
-                 a02_rg=(1 / 15, 15), 
-                 b_rg=(-200, 200),
-                 c_rg=(-3000, 3000)
-                 ):
-        """
-        CvtGen constructor
-
-        Parameters
-        ----------
-
-        cvt_params : tuple, optional
-            Tuple of the eight parameters needed for de generation of
-            a Curvatubes surface: eps, a_20, a_11, a_02, a_10, a_01,
-            a_00, and m_0. For reference, see Curvatubes original paper:
-            https://link.springer.com/article/10.1007/s10851-021-01049-9
-        mass_rg : tuple, optional
-            If given, a range for the m_0 parameter. Else, the value from
-            cvt_params is used.
-        a11_rg : tuple, optional
-            If given, a range for the a_11 parameter. Else, the value 
-            from cvt_params is used.
-        """
-        assert hasattr(mass_rg, '__len__') and (len(mass_rg) == 2) and (mass_rg[0] <= mass_rg[1])
-        assert hasattr(a11_rg, '__len__') and (len(a11_rg) == 2) and (a11_rg[0] <= a11_rg[1])
-        assert hasattr(a02_rg, '__len__') and (len(a02_rg) == 2) and (a02_rg[0] <= a02_rg[1])
-        assert hasattr(b_rg, '__len__') and (len(b_rg) == 2) and (b_rg[0] <= b_rg[1])
-        assert hasattr(c_rg, '__len__') and (len(c_rg) == 2) and (c_rg[0] <= c_rg[1])
-        self.__mass_rg = mass_rg
-        self.__a11_rg = a11_rg
-        self.__a02_rg = a02_rg
-        self.__b_rg = b_rg
-        self.__c_rg = c_rg
-        self.__cvt_params = cvt_params
-
-    def gen_parameters(self):
-        """
-        Generates randomly the parameters needed for the generation of a curvatube following bounded uniform distributions
-
-        :return: the eight parameters needed
-        """
-        a20 = 1
-        eps = 0.02
-        m = random.uniform(self.__mass_rg[0], self.__mass_rg[1])
-        a11 = random.uniform(self.__a11_rg[0], self.__a11_rg[1])
-        a02 = random.uniform(self.__a02_rg[0], self.__a02_rg[1])
-        b10 = random.uniform(self.__b_rg[0], self.__b_rg[1])
-        b01 = random.uniform(self.__b_rg[0], self.__b_rg[1])
-        c = random.uniform(self.__c_rg[0], self.__c_rg[1])
-
-        # return eps, a20, a11, a02, b10, b01, c, m
-        return self.__cvt_params

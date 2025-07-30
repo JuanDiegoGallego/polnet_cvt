@@ -10,7 +10,9 @@ from polnet.poly import *
 from polnet.affine import *
 from polnet.lrandom import *
 from abc import ABC, abstractmethod
-from curvatubes.generator import _generate_shape
+from cvtub.generator import _generate_shape 
+import numpy as np
+from scipy.ndimage import zoom
 
 MAX_TRIES_MB = 10
 
@@ -287,7 +289,6 @@ class MbSphere(Mb):
         R_o = ((X - p0_v[0]) / ai_v_p1) ** 2 + ((Y - p0_v[1]) / ai_v_p1) ** 2 + ((Z - p0_v[2]) / ai_v_p1) ** 2
         R_i = ((X - p0_v[0]) / ai_v_m1) ** 2 + ((Y - p0_v[1]) / ai_v_m1) ** 2 + ((Z - p0_v[2]) / ai_v_m1) ** 2
         G += tomo_rotate(np.logical_and(R_i >= 1, R_o <= 1), self._Mb__rot_q, order=0)
-        # G += tomo_rotate(np.logical_and(R >= ai_v_m1**2, R_o <= ai_v_p1**2), self._Mb__rot_q, order=0)
 
         # Smoothing
         # TODO: is it required the density_norm() having lin_map()?
@@ -368,55 +369,66 @@ class MbCurvatubes(Mb):
     """
     Class for generating a Curvatubes surface
     """
-    def __init__(self, tomo_shape, v_size=1, center=(0, 0, 0), rot_q=(1, 0, 0, 0), thick=1, layer_s=1, cvt_params=(0.02, 1, 0.85, 6, -80, -7.5, 1770, -0.42)):
+    def __init__(self, 
+                 tomo_shape,
+                 cvt_params,
+                 v_size=1, 
+                 thick=1, 
+                 layer_s=1, 
+                ):
         """
         Constructor
 
         :param tomo_shape: reference tomogram shape (X, Y and Z dimensions)
         :param v_size: reference tomogram voxel size (default 1)
-        :param center: ellipsoid center (VERY IMPORTANT: coordinates are not in voxels). Useless in curvatubes
-        :param rot_q: rotation expressed as quaternion with respect ellipsoid center (default [1, 0, 0, 0] no rotation) Useless in curvatubes
         :param thick: membrane thickness (default 1)
         :param layer_s: Gaussian sigma for each layer
         :param ctv_params: Parameters for the generation of the shape: (eps, a20, a11, a02, b10, b01, c, mass)
         """
-        super(MbCurvatubes, self).__init__(tomo_shape, v_size, center, rot_q, thick, layer_s)
+        super(MbCurvatubes, self).__init__(tomo_shape=tomo_shape,
+                                           v_size = v_size,
+                                           thick = thick,
+                                           layer_s = layer_s)
         assert(len(cvt_params)==8)
-        assert( (-1 <= cvt_params[7]) & (cvt_params[7] <= 1) )
+        assert( (-1.0 <= cvt_params[7]) and (cvt_params[7] <= 1.0) )
         self.__cvt_params = cvt_params
         self.__delta_x = 1/300 # This value is provisional until the correlation between delta_x and curvature
         self._Mb__build_tomos()
 
     def _Mb__build_tomos(self):
         # Input parsing
-        # TODO t_v, s_v = .5 * (self._Mb__thick / self._Mb__v_size), self._Mb__layer_s / self._Mb__v_size
-        t_v, s_v = np.sqrt(3), self._Mb__layer_s / self._Mb__v_size
+        t_v, s_v = .5 * (self._Mb__thick / self._Mb__v_size), self._Mb__layer_s / self._Mb__v_size
         eps, a20, a11, a02, b10, b01, c, M0 = self.__cvt_params
         delta_x = self.__delta_x
         thr = 0 # Threshold marking what is inside
 
-        optim_props = {'maxeval': 6000, 'sigma_blur': 3, 'lr': .001, 'eps_adam': 1e-2, # Parametros a mano
+        optim_props = {'maxeval': 6000, 'sigma_blur': 3, 'lr': .001, 'eps_adam': 1e-2,
                        'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False,
                        'display_it_nb': 1000, 'fill_curve_nb': 50}
 
         # Generating the surface
         # tomo_shape = self._Mb__tomo_shape
-        u = _generate_shape(params=(eps, a20, a11, a02, b10, b01, c), tomo_shape=(500,500,250),
+        u = _generate_shape(params=(eps, a20, a11, a02, b10, b01, c), tomo_shape=(300,300,300),
                         delta_x=delta_x, xi=1e-6, optim_method='adam', optim_props=optim_props,
-                        flow_type='cons', mode='periodic', M0=M0, verbose=False)
+                        flow_type='cons', mode='periodic', M0=M0, verbose=False, display_all=False)
         
         # Resizing
-        from scipy.ndimage import zoom
-        u = zoom(u, 2, order=3)
-        u = u[:,:,:250]
+        target_shape = self._Mb__tomo_shape  # e.g., (1000, 1000, 250)
+        zoom_factors = [t / s for t, s in zip(target_shape, u.shape)]
+        u_zoomed = zoom(u, np.max(zoom_factors), order=3)
+
+        # Crop to target_shape (in case zoom overshoots due to rounding)
+        slices = tuple(slice(0, t) for t in target_shape)
+        u_cropped = u_zoomed[slices]
 
         # Mask generation
-        ct_den = np.copy(u)
+        ct_den = np.copy(u_cropped)
         ct_den[ct_den > thr] = 1
         ct_den[ct_den <= thr] = 0
         ct_den = sp.ndimage.binary_dilation(ct_den) - ct_den                    # Voxels of the surface
         ct_dist = np.float32(sp.ndimage.distance_transform_edt(1 - ct_den))     # Distance to the surface (distance to 0)
         self._Mb__mask = np.copy(ct_dist<=t_v)                                  # Points at a distance leq l_v
+        self._Mb__mask += np.copy(np.logical_and(ct_dist > 2+t_v, ct_dist < 2+3*t_v))
         # self._Mb__mask = tomo_rotate(self._Mb__mask, self._Mb__rot_q, order=0) # No rotation required
         if self._Mb__mask.sum() == 0:
             raise MbError
@@ -428,55 +440,11 @@ class MbCurvatubes(Mb):
 
         # Generating the bilayer
         ct_dist = self._Mb__mask - ct_den
+        ct_dist = np.logical_and(ct_dist, np.logical_not(np.abs(ct_dist-(2+2*t_v)) < 0.8))
 
         # Smoothing
         self._Mb__tomo = lin_map(density_norm(sp.ndimage.gaussian_filter(ct_dist.astype(float), s_v), inv=True), ub=0, lb=1)
 
-    # def _Mb__build_tomos(self):
-    #     # Input parsing
-    #     t_v, s_v = .5 * self._Mb__thick / self._Mb__v_size, self._Mb__layer_s / self._Mb__v_size
-    #     t_v_p1 = t_v + 1
-    #     t_v_m1 = t_v - 1
-    #     eps, a20, a11, a02, b10, b01, c, M0 = self.__cvt_params
-    #     delta_x = self.__delta_x
-    #     thr = 0 # Threshold marking what is inside
-    #
-    #     optim_props = {'maxeval': 6000, 'sigma_blur': 3, 'lr': .001, 'eps_adam': 1e-2, # Parametros a mano
-    #                    'betas': (0.9, 0.999), 'weight_decay': 0, 'amsgrad': False,
-    #                    'display_it_nb': 1000, 'fill_curve_nb': 50}
-    #
-    #     # Generating the surface
-    #     u = _generate_shape(params=(eps, a20, a11, a02, b10, b01, c), tomo_shape=self._Mb__tomo_shape,
-    #                     delta_x=delta_x, xi=1e-6, optim_method='adam', optim_props=optim_props,
-    #                     flow_type='cons', mode='periodic', M0=M0, verbose=False)
-    #
-    #     # Mask generation
-    #     ct_den = np.copy(u)
-    #     ct_den[ct_den > thr] = 1
-    #     ct_den[ct_den <= thr] = 0
-    #     ct_den = sp.ndimage.binary_dilation(ct_den) - ct_den
-    #     ct_dist = np.float32(sp.ndimage.distance_transform_edt(1 - ct_den))
-    #     self._Mb__mask = np.copy(ct_dist<=t_v)
-    #     # self._Mb__mask = tomo_rotate(self._Mb__mask, self._Mb__rot_q, order=0) # No rotation required
-    #     if self._Mb__mask.sum() == 0:
-    #         raise MbError
-    #
-    #     # Surface generation
-    #     self._Mb__surf = iso_surface(ct_dist, 0.5)
-    #     add_sfield_to_poly(self._Mb__surf, self._Mb__mask, 'mb_mask', dtype='int', interp='NN', mode='points')
-    #     self._Mb__surf = poly_threshold(self._Mb__surf, 'mb_mask', mode='points', low_th=.5)
-    #
-    #     # Generating the bilayer
-    #     ct_dist = np.float32(sp.ndimage.distance_transform_edt(1-self._Mb__mask))
-    #     ct_max_v = ct_dist.max() * 2
-    #
-    #     ct_dist[(ct_dist<t_v)] = ct_max_v * 3
-    #     ct_dist[ct_dist<ct_max_v*2] = 0
-    #     ct_dist[ct_dist!=0] = 1
-    #     ct_dist = ct_dist - ct_den
-    #
-    #     # Smoothing
-    #     self._Mb__tomo = lin_map(density_norm(sp.ndimage.gaussian_filter(ct_dist.astype(float), s_v), inv=True), ub=0, lb=1)
 
 
 class SetMembranes:
@@ -506,7 +474,7 @@ class SetMembranes:
         # Input parsing
         assert isinstance(voi, np.ndarray) and (voi.dtype == bool)
         assert issubclass(gen_rnd_surfs.__class__, SurfGen)
-        assert hasattr(param_rg, '__len__') and (len(param_rg) == 3) and (param_rg[0] <= param_rg[1])
+        assert hasattr(param_rg, '__len__') and (len(param_rg) == 3)
         assert hasattr(thick_rg, '__len__') and (len(thick_rg) == 2) and (thick_rg[0] <= thick_rg[1])
         assert hasattr(layer_rg, '__len__') and (len(layer_rg) == 2) and (layer_rg[0] <= layer_rg[1])
         assert (occ >= 0) and (occ <= 100)
@@ -585,7 +553,7 @@ class SetMembranes:
                     cvt_parameters = self.__gen_rnd_surfs.gen_parameters()
 
                     hold_mb = MbCurvatubes(self.__voi.shape, cvt_params=cvt_parameters, v_size=self.__v_size,
-                                           center=p0, rot_q=np.asarray((1,0,0,0), dtype=float), thick=thick, layer_s=layer_s)
+                                           thick=thick, layer_s=layer_s)
                     hold_rad = -1 # Not used
                 else:
                     print('ERROR: not valid random surface parameters generator: ' + str(self.__gen_rnd_surfs.__class__))
